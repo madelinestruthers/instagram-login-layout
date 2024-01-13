@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+.footer span {
+    margin-right: 20px;
+   
+}
+.footer span:last-child {
+    margin-right: 0px;
+}

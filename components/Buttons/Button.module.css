@@ -1,0 +1,12 @@
+.button {
+    background-color: var(--skyblue);
+    width: 240px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    box-sizing:content-box;
+    font-weight: bold;
+}

@@ -1,0 +1,132 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  min-height: 70vh;
+}
+
+.logo {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin-top: -15px;
+}
+
+.loginForm input {
+  margin-bottom: 5px;
+  padding: 8px;
+  border: 1px solid var(--lightgray);
+  border-radius: 3px;
+  margin-top: 1px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding: 40px;
+  border: 1px solid var(--lightgray);
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ height: 300px;
+}
+
+.divider hr {
+  width: 365%;
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -80px;
+  height: 1px;
+  background-color: var(--lightgray);
+ 
+}
+
+.span {
+  padding: 10px;
+  color: #333; 
+  background-color: white;
+  font-size: small;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: var(--darkgrey);
+  font-weight: bold;
+}
+
+.facebook{
+  margin-bottom:-10px;
+  margin-top:20px;
+}
+.secondContainer{
+  display: flex;
+  flex-direction: row;
+  background: white;
+  padding: 25px;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 290px;
+
+}
+
+.accountText, .signUp{
+  margin-top:-10px;
+  margin-right:-20px;
+  margin-left:30px;
+}
+.signUp{
+  color: var(--skyblue);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgotPassword{
+  color:rgb(56, 56, 118);
+  font-size: small;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  text-decoration: none;
+}
+.bottom{
+  position:absolute;
+  bottom:50px;
+  text-align: center;
+  left:50%;
+  transform: translateX(-50%);
+  width:100%;
+  padding: 10px;
+  margin-bottom: 130px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}}
